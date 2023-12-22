@@ -65,7 +65,7 @@ For CelebA dataset:
 python ballot.py --dataset celeba --total_cls 2
 ```
 
-2. The number of this trial should appear in folder `checkpoint/`. Copy this number and run the different methods. Take TinyImagenet as an example, assuming we have gotten the trial number `1702450003.6434438` by running the code from the previous step:
+2. The timestamp of this trial should appear in folder `checkpoint/`. Copy this timestamp number to run the different methods. Take TinyImagenet as an example, assuming we have gotten the timestamp number `1702450003.6434438` by running the code from the previous step, then:
    
 For Ballot pruning:
 ```shell
